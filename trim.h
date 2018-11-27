@@ -15,8 +15,10 @@
 #define ___trim_h
 #include <string.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 
-int trim(char* source, char* trimmed_string);
+void trim(char* source, char* trimmed_string);
+bool isEmpty(char char1);
 
 #endif
