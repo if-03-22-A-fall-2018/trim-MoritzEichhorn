@@ -15,6 +15,7 @@
 
 #include "shortcut.h"
 #define STRLEN 16
+//The compiler would "run out of range" there probably wouldn't be an error, but the chars after the Length would be stored in the next storage. But this storage doesn't belong to us.  
 
 TEST(empty_substring);
 TEST(total_string);
