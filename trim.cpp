@@ -10,3 +10,7 @@
  * Test functions for trim.h
  * ----------------------------------------------------------
  */
+
+int trim(char* source, char* trimmed_string){
+  return 0;
+}
