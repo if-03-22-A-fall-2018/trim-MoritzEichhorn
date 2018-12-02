@@ -10,6 +10,7 @@
  * Test functions for trim.h
  * ----------------------------------------------------------
  */
+
  #include "trim.h"
 
 // I checked where the valid part of the string started and ended (with 2 while loops) and saved these indeces. Then I wrote the valid part of the source into the trimmed_string

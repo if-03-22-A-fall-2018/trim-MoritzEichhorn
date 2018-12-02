@@ -15,7 +15,7 @@ OBJS = shortcut.o trim.o test_trim.o
 DOXY            = /Applications/Doxygen/Doxygen.app/Contents/Resources/doxygen
 
 all: $(PROGRAM)
-	./$(PROGRAM) "    My test string     "
+	./$(PROGRAM) "   First Argument" "Second Argument"
 # test string to be added by student
 
 $(TEST): $(OBJS) $(TESTOBJECT)
