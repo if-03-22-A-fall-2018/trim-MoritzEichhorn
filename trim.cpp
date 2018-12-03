@@ -17,7 +17,7 @@
 void trim(char* source, char* trimmed_string){
 int end = -1;
 int start = -1;
-unsigned int count = strlen(source);
+int count = strlen(source);
 
 strcpy(trimmed_string, ""); // delete content of trimmed_string
 

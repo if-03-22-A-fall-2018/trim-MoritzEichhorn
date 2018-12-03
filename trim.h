@@ -17,7 +17,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-
 void trim(char* source, char* trimmed_string);
 bool isEmpty(char char1);
 
